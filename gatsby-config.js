@@ -5,5 +5,17 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
+    'gatsby-plugin-dark-mode',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+          fonts: [
+              `Open+Sans\:400`,
+          ],
+      }
+  },
+  ],
 }

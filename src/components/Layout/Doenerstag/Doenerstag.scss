@@ -1,0 +1,29 @@
+@import '../../../styles/variables';
+
+.doenerstag {
+    &__container {
+        display: flex;
+        padding-top: 25%;
+        justify-content: center;
+        align-items: center;
+
+        @media only screen and (min-width: 768px) {
+            padding-top: 15%;
+        }
+    }
+
+    &__title {
+        font-size: 2rem;
+        color: $c-black;
+        text-transform: uppercase;
+        text-align: center;
+
+        .dark & {
+            color: $c-white;
+        }
+
+        @media only screen and (min-width: 768px) {
+            font-size: 4rem;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+@import "variables";
+
+body {
+    margin: 15px;
+    font-family: $primary-font;
+    background: $c-white;
+
+    &.dark {
+        background: $bg-dark;
+    }
+}
+
+.theme-switcher {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    color: $c-black;
+    
+    .dark & {
+        color: $c-white;
+    }
+}
+
+.footer {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+
+    a {
+        color: $c-black;
+        text-decoration: underline;
+        font-size: .8rem;
+
+        .dark & {
+            color: $c-white;
+        }
+    }
+}
