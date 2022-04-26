@@ -1,6 +1,6 @@
 # Is it Dönerstag?
 
-Let's find out...
+Let's find out... [here](https://isitdoenerstag.com/)
 
 ## Add new language (or whatever)
 
